@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAeN39wmEA0J6ti11rujohGZyspyg6q4xI",
+        authDomain: "hot-air-balloon-d1abe.firebaseapp.com",
+        databaseURL:
+          "https://hot-air-balloon-d1abe-default-rtdb.firebaseio.com",
+        projectId: "hot-air-balloon-d1abe",
+        storageBucket: "hot-air-balloon-d1abe.appspot.com",
+        messagingSenderId: "58027137437",
+        appId: "1:58027137437:web:88adabdfae831a1910b774",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
